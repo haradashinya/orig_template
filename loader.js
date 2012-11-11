@@ -1,13 +1,10 @@
 var Loader = function(){
 	var self = this;
 
-	var render = function(){
-		console.log("render");
-	};
 
 	// create xhr obj and load from str and passed it to callback function.
 
-	this.load = function(tmpl,query,callback){
+	this.load = function(tmpl,callback){
 		var lastDir = location.pathname.split("/").pop();
 		var dirList = location.pathname.split("/").filter(function(dir){
 			return lastDir !== dir;

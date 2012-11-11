@@ -8,7 +8,7 @@ describe("Loader",function(){
 		});
 
 		it("should received response when call load",function(){
-			loader.load("tmp/sample.html","#sample",function(content){
+			loader.load("tmp/sample.html",function(content){
 				var q = document.querySelector("#sample");
 				assert(!!content === true );
 				q.innerHTML = content;

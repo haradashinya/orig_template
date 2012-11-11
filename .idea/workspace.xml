@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="loader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+            <state line="6" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.1322314">
               <folding />
             </state>
           </provider>
@@ -32,16 +32,16 @@
       <file leaf-file-name="loader_test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/loader_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="10" column="36" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="0.6511628">
+            <state line="16" column="5" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.24">
               <folding />
             </state>
           </provider>
@@ -78,8 +78,9 @@
         <option value="$PROJECT_DIR$/test/roader_test.js" />
         <option value="$PROJECT_DIR$/roader.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/test/loader_test.js" />
         <option value="$PROJECT_DIR$/tmp/sample.html" />
+        <option value="$PROJECT_DIR$/test/loader_test.js" />
+        <option value="$PROJECT_DIR$/loader.js" />
       </list>
     </option>
   </component>
@@ -115,6 +116,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,16 +165,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="coverage" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,6 +284,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tmp/sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="10" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
@@ -353,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/loader_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/sample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -367,16 +375,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loader.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+        <state line="16" column="5" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/test/loader_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="0.6511628">
+        <state line="10" column="36" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.1322314">
           <folding />
         </state>
       </provider>
