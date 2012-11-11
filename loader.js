@@ -9,24 +9,23 @@ var Loader = function(){
 		var dirList = location.pathname.split("/").filter(function(dir){
 			return lastDir !== dir;
 		},this);
-		console.log(dirList);
+
+
 		var tmpls = tmpl.split("/");
 		tmpls.map(function(dir){
 			dirList.push(dir);
-		},this)
-		console.log(dirList);
-
-
+		},this);
 
 		var url = location.protocol +  dirList.join("/");
-		console.log(url);
 
 
 		var req = new XMLHttpRequest();
 		req.open("GET",url);
-		req.onload = function(evt){
-			var responseTxt = evt.target.responseText;
-			callback(responseTxt);
+		req.onreadystatechange = function(evt){
+			if (req.readyState === 4 && req.status === 200){
+				callback(req.responseText);
+			}
+
 
 		};
 		req.send();
